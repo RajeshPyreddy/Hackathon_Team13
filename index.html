@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course and Teacher Assignment System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Course and Teacher Assignment System</h1>
+
+        <!-- Theory Course Selection Section -->
+        <section class="course-section">
+            <h2>Select Your Theory Courses</h2>
+            <form id="courseForm">
+                <div class="course">
+                    <label for="theoryCourse1">Theory Course 1:</label>
+                    <select id="theoryCourse1" required>
+                        <option value="">Select Course</option>
+                        <option value="Data Structures">Data Structures</option>
+                        <option value="Operating Systems">Operating Systems</option>
+                        <option value="Database Systems">Database Systems</option>
+                        <option value="Artificial Intelligence">Artificial Intelligence</option>
+                    </select>
+                    
+                    <label for="theoryTeacher1">Select Teacher:</label>
+                    <select id="theoryTeacher1" required>
+                        <option value="">Select Teacher</option>
+                        <option value="Prof. John Doe">Harinath</option>
+                        <option value="Prof. Jane Smith">Chaintanya</option>
+                        <option value="Prof. Emily Brown">Sravan</option>
+                    </select>
+                </div>
+
+                <div class="course">
+                    <label for="theoryCourse2">Theory Course 2:</label>
+                    <select id="theoryCourse2" required>
+                        <option value="">Select Course</option>
+                        <option value="Data Structures">Computer Networks</option>
+                        <option value="Operating Systems">Complier Design</option>
+                        <option value="Database Systems">Software Engineering</option>
+                        <option value="Artificial Intelligence">cloud foundation</option>
+                    </select>
+
+                    <label for="theoryTeacher2">Select Teacher:</label>
+                    <select id="theoryTeacher2" required>
+                        <option value="">Select Teacher</option>
+                        <option value="Prof. Mark Lee">Sravanthi</option>
+                        <option value="Prof. Sarah Connor">Prathap Naidu</option>
+                        <option value="Prof. Alan Turing">Rubia</option>
+                    </select>
+                </div>
+
+                <div class="course">
+                    <label for="theoryCourse3">Theory Course 3:</label>
+                    <select id="theoryCourse3" required>
+                        <option value="">Select Course</option>
+                        <option value="Data Structures">Management Scienece</option>
+                        <option value="Operating Systems">UHV</option>
+                        <option value="Database Systems">Python</option>
+                        <option value="Artificial Intelligence">Java</option>
+                    </select>
+
+                    <label for="theoryTeacher3">Select Teacher:</label>
+                    <select id="theoryTeacher3" required>
+                        <option value="">Select Teacher</option>
+                        <option value="Prof. Albert Einstein">Swetha</option>
+                        <option value="Prof. Marie Curie">Madhusudhan</option>
+                        <option value="Prof. Stephen Hawking">Nageswar</option>
+                    </select>
+                </div>
+
+                <div class="course">
+                    <label for="theoryCourse4">Theory Course 4:</label>
+                    <select id="theoryCourse4" required>
+                        <option value="">Select Course</option>
+                        <option value="Data Structures">Computer Graphics</option>
+                        <option value="Operating Systems">Andriod Programming</option>
+                        <option value="Database Systems">Big Data Analatics</option>
+                        <option value="Artificial Intelligence">OOAD</option>
+                    </select>
+
+                    <label for="theoryTeacher4">Select Teacher:</label>
+                    <select id="theoryTeacher4" required>
+                        <option value="">Select Teacher</option>
+                        <option value="Prof. Ada Lovelace">Rajasekhar</option>
+                        <option value="Prof. Isaac Newton">Vinay</option>
+                        <option value="Prof. Nikola Tesla">Narasimhlu</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-submit">Submit Theory Courses</button>
+            </form>
+        </section>
+
+        
+
+        <!-- Lab Course Selection Section -->
+        <section class="lab-section">
+            <h2>Select Your Lab Courses</h2>
+            <form id="labForm">
+                <div class="course">
+                    <label for="labCourse1">Lab Course 1:</label>
+                    <select id="labCourse1" required>
+                        <option value="">Select Lab Course</option>
+                        <option value="Data Structures Lab">Data Structures Lab</option>
+                        <option value="OS Lab">OS Lab</option>
+                        <option value="DBMS Lab">DBMS Lab</option>
+                        <option value="Networks Lab">Networks Lab</option>
+                    </select>
+
+                    <label for="labTeacher1">Select Teacher:</label>
+                    <select id="labTeacher1" required>
+                        <option value="">Select Teacher</option>
+                        <option value="Prof. John von Neumann">Haranath</option>
+                        <option value="Prof. Grace Hopper">Sravanthi</option>
+                        <option value="Prof. Richard Feynman">Chaintanya</option>
+                    </select>
+                </div>
+
+                <div class="course">
+                    <label for="labCourse2">Lab Course 2:</label>
+                    <select id="labCourse2" required>
+                        <option value="">Select Lab Course</option>
+                        <option value="Data Structures Lab">Design Algorothims</option>
+                        <option value="OS Lab">Software Testing Tool</option>
+                        <option value="DBMS Lab">Big Data Analystics</option>
+                        <option value="Networks Lab">Java</option>
+                    </select>
+
+                    <label for="labTeacher2">Select Teacher:</label>
+                    <select id="labTeacher2" required>
+                        <option value="">Select Teacher</option>
+                        <option value="Prof. Katherine Johnson">Madusudhan</option>
+                        <option value="Prof. Rosalind Franklin">Naveen Sundhar</option>
+                        <option value="Prof. Charles Babbage">Nageswar</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-submit">Submit Lab Courses</button>
+            </form>
+        </section>
+
+         Teacher Profiles and Ratings for Lab Courses 
+        <section class="teacher-profiles">
+            <h2>Lab Teacher Profiles and Ratings</h2>
+            <div class="profile">
+                <h3>NAVEEN SUNDHAR</h3>
+                
+                <p>Research Projects: FULL STACK</p>
+                <p>Patents: Web techonologies</p>
+                
+            </div>
+            <div class="profile">
+                <h3>SRAVAN</h3>
+                
+                <p>Research Projects: FULL STACK AND JAVA</p>
+                <p>Patents: Java </p>
+                
+            </div>
+            <div class="profile">
+                <h3>Prof. MADHUSUDHAN</h3>
+                
+                <p>Research Projects: ON PYTHON</p>
+                <p>Patents: Python</p>
+               
+            </div>
+             Add more teacher profiles as needed 
+        </section>
+
+        <!-- Feedback Section -->
+        <section class="feedback-section">
+            <h2>Submit Your Feedback</h2>
+            <textarea id="feedback" rows="4" placeholder="Your feedback here..."></textarea>
+            <button id="submitFeedbackBtn" class="btn-submit">Submit Feedback</button>
+        </section>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
